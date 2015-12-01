@@ -1,0 +1,39 @@
+#headingList li
+{
+	display: inline;
+	color: black;
+	font-size: 75%;
+}
+.centeredHeaderPosition
+{
+	text-align: center;
+}
+
+.searchLayout
+{
+	display:inline-block;
+}
+
+#query
+{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.loginPosition{
+	position: relative;
+    left: 58em;
+ }
+li a
+{
+	margin: 1%;
+}
+a
+{
+	color: inherit;
+	text-decoration: none;
+}
+
+li
+{
+	color: blue;
+}

@@ -3,31 +3,39 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Comverse</title>
+	<link rel="stylesheet" href="css/style-guide.css" type='text/css'>
 </head>
 <body>
-	<header>
-		<img src="./images/ComverseLogo.png" alt="Comverse_Log">
-			 <ul>
-				<li><a href="">YOUR NEEDS</a></li>	
-				<li><a href="">OUR PORTFOLIO</a></li>
-				<li><a href="">NEWS &amp; MEDIA</a></li>
-				<li><a href="">ABOUT COMVERSE</a></li>
-			</ul>
-		<select class="languageLayout">
-			  <option value="en">EN</option>
-			  <option value="he">HE</option>
-		</select>
-			<img src="./images/divider.png" alt="Divider"><a onclick="">&nbsp;Customer Login</a>
-		<form action="https://www.google.by/search" class="searchLayout">
-			<label for="query"></label>
-			<input id="query" name="q" type="text">
-			  <button type="submit">
-			  		<img src="./images/searchBtn.png" alt="search">
-			  </button>
-		</form>
-	</header>
+		<div class="loginPosition">
+				<select>
+					  <option value="en">EN</option>
+					  <option value="he">HE</option>
+				</select>			
+				<img src="./images/divider.png" alt="Divider">
+				<a onclick="">&nbsp;Customer Login</a>
+		</div>
+	<div class="centeredHeaderPosition">
+		<header id="headingList">
+				<ul>
+					 <img src="./images/ComverseLogo.png" alt="Comverse_Log">
+						<li><a href="">YOUR NEEDS</a></li><img src="./images/divider.png" alt="Divider">	
+						<li><a href="">OUR PORTFOLIO</a></li><img src="./images/divider.png" alt="Divider">
+						<li><a href="">NEWS &amp; MEDIA</a></li><img src="./images/divider.png" alt="Divider">
+						<li><a href="">ABOUT COMVERSE</a></li>
+						<li>
+							<form action="https://www.google.by/search" class="searchLayout">
+								<label for="query"></label>
+								<input id="query" name="q" type="text">
+									<button type="submit">
+										<img src="./images/searchBtn.png" alt="search">
+									</button>
+							</form>
+						</li>
+				</ul>
+
+		</header>
+	</div>
 	<footer>
-		FOOTER TO DO
 	</footer>
 </body>
 </html>

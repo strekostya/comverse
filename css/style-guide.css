@@ -4,21 +4,143 @@
 	color: black;
 	font-size: 75%;
 }
+.knopki
+{
+	padding-left: 10px;
+	margin-left: -53%;
+}
+.knopka
+{
+	display: inline-block;
+	background-color: #E6E6E6;
+	margin-right: 7px;
+	border-radius: 3px;
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+}
+/*
+.knopka:nth-of-type(4)
+{
+	background-color: #3394DF;
+}*/
+.firstknopka
+{
+	background-color: #3394DF;
+}
+.generalBox	
+ {
+    width:20%;
+    height:20%;
+    color: white; 
+    border-radius: 6px;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+
+ .pinkBox
+ {
+ 	background-color:  #f24f9e;
+ }
+ .orangeBox
+ {
+ 	background-color: orange;
+ }
+.greenBox
+{
+	background-color: green;
+}
+.cssKnopki
+{
+	display: none;
+}
+
 .centeredHeaderPosition
 {
 	text-align: center;
 }
+.selectLocation
+{
+	position: relative;
+	bottom: 10px;
+	border: transparent; 
+	font-size: 100%;
+}
+#custLogin
+{
+	margin-bottom: 10rem;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 90%;
+}
 
 .searchLayout
 {
-	display:inline-block;
+	display: inline-block;
+	text-align: left;
+	margin-bottom: 1.2rem;
+	margin-right: 0;
+}
+
+#buttonRadius
+{
+	border: solid;
+	color: rgb(220,220,220);
+	border-width: 1px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;	
+	position: relative;
+	display: inline-block;
+	padding: 0.1rem 0.5rem;
+	height: 0.8rem;
 }
 
 #query
 {
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	display: inline-block;
+	position: relative;
+	bottom: 0.2rem;
+	width: 65%;
+	height: 0.8rem;
+	border-right: none;
+	border-width: 1px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
+.comverseBcg
+{
+	background-image: url(../images/slide-bg-complexity.png);
+	width: 100%;
+	min-height: 100%;
+	background-repeat: none;
+	background-position: center;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 0;
+}
+h2, p
+{
+	color: white;
+	font-weight: normal;
+	text-align: left;
+	margin-left: 20%;
+	font-size: 125%;
+}
+
+h2
+{
+	color: white;
+	text-align: left;
+	font-weight: normal;
+	margin-left: 20%;
+	font-size: 200%;
+}
+
 .loginPosition{
 	position: relative;
     left: 58em;
@@ -37,3 +159,44 @@ li
 {
 	color: blue;
 }
+
+.LearnMoreButton
+{
+    display: block;
+    background: #2793C9;
+    color: white;
+    font-size: 14px;   
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 15px;
+    width: 10%;
+    margin-left: 20%;
+    text-align: left;
+}
+.LearnMoreButton:after
+{
+	content: url('../images/btnArrow.png');
+    position: relative;
+    right: -34px;
+    top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

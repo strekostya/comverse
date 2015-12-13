@@ -28,18 +28,42 @@
 {
 	background-color: #3394DF;
 }
-.generalBox	
+.generalBox
  {
-    width:20%;
-    height:20%;
+    position: relative;
+	margin-right: 30px;
+    padding: 10px;
+    padding-top: 1px;
+	padding-bottom: 70px;
+	font-size: 12px;
+    width:270px;
+    height:110px;
     color: white; 
     border-radius: 6px;
-    padding: 10px;
     display: inline-block;
-    margin-right: 10px;
-    position: relative;
+    vertical-align: top;
 }
-
+.pinkBox a:before
+{
+	position: relative;
+	bottom: 15px;
+	right: 15%;
+	content: url('../images/link_icon.png');
+}
+.greenBox a:before
+{
+	position: relative;
+	bottom: 15px;
+	right: 15%;
+	content: url('../images/file_icon.png');
+}
+.orangeBox a:before
+{
+	position: relative;
+	bottom: 15px;
+	right: 15%;
+	content: url('../images/play_icon.png');
+}
  .pinkBox
  {
  	background-color:  #f24f9e;
@@ -121,7 +145,8 @@ body {
 	margin-left: auto;
     margin-right: auto;
     display: block;
-    padding-top: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 h2, p
 {

@@ -31,11 +31,11 @@
 .generalBox
  {
     position: relative;
-	margin-right: 30px;
+	margin-right: 10px;
     padding: 10px;
     padding-top: 1px;
 	padding-bottom: 70px;
-	font-size: 12px;
+	font-size: 110%;
     width:270px;
     height:110px;
     color: white; 
@@ -43,26 +43,33 @@
     display: inline-block;
     vertical-align: top;
 }
+.generalBox a
+{
+	position: absolute;
+	font-size: 80%;
+	right: 120px;
+
+}
 .pinkBox a:before
 {
 	position: relative;
-	bottom: 15px;
+	top: 5px;
 	right: 15%;
 	content: url('../images/link_icon.png');
 }
 .greenBox a:before
 {
 	position: relative;
-	bottom: 15px;
+	top: 5px;
 	right: 15%;
 	content: url('../images/file_icon.png');
 }
 .orangeBox a:before
 {
 	position: relative;
-	bottom: 15px;
+	top: 5px;
 	right: 15%;
-	content: url('../images/play_icon.png');
+	content: url('../images/play_icon_img.png');
 }
  .pinkBox
  {
@@ -97,9 +104,11 @@
 	margin-bottom: 10rem;
 }
 
-body {
+body 
+{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 90%;
+	margin: 0;
 }
 
 .searchLayout
@@ -156,6 +165,22 @@ h2, p
 	margin-left: 20%;
 	font-size: 125%;
 }
+.blueArea
+{
+	background-image: url(../images/services-bg.png);
+	background:  radial-gradient(#59BEDB 0%, #3399CC 100%);
+	width: 100%;
+	padding-top: 0.1px;
+	padding-bottom: 10px;
+}
+.blueArea li
+{
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	text-align: center;
+
+}
 
 h2
 {
@@ -206,8 +231,49 @@ li
     right: -34px;
     top: 2px;
 }
+.weCanDoList  li
+{
+	display: inline-block;
+	color: white;
+	padding-right: 15px;
+}
+.inline
+{
+	display: inline;
+}
 
+.center
+{
+	text-align: center;
+	margin: auto;
+	margin-top: 30px;
+}
+.dataMonetization
+{
+	content: url('../images/data-monetization.png');
+	display: block;
+}
 
+.machineToMachine
+{
+	content: url('../images/robot-icon.png');
+}
+.overTheTop
+{
+	content: url('../images/flag-icon.png');
+}
+.cloudComputing
+{
+	content: url('../images/cloud-icon.png');
+}
+.managedServices
+{
+	content: url('../images/managed-services.png');
+}
+.socialMedia
+{
+	content: url('../images/social-icon.png');
+}
 
 
 

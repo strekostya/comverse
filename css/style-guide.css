@@ -228,7 +228,7 @@ li
 {
 	content: url('../images/btnArrow.png');
     position: relative;
-    right: -34px;
+    padding-left: 1em;
     top: 2px;
 }
 .weCanDoList  li

@@ -146,7 +146,7 @@ body
 }
 .comverseBcg
 {
-	background-image: url(../images/slide-bg-complexity.png);
+	background: url(../images/slide-bg-complexity.png) no-repeat fixed;
 	width: 100%;
 	min-height: 100%;
 	background-repeat: none;
@@ -173,11 +173,16 @@ h2, p
 	padding-top: 0.1px;
 	padding-bottom: 10px;
 }
+.whatsHappeningArea 
+{
+	background: url(../images/news-and-events-bg.png) 50% no-repeat fixed;
+	padding-top: 0.1px;
+}
+
 .blueArea li
 {
 	display: inline-block;
 	position: relative;
-	vertical-align: top;
 	text-align: center;
 
 }
@@ -231,12 +236,38 @@ li
     padding-left: 1em;
     top: 2px;
 }
+.centerText
+{
+	position: relative;
+	right: 20px; 
+}
 .weCanDoList  li
 {
 	display: inline-block;
 	color: white;
 	padding-right: 15px;
 }
+.news
+{
+	position: relative;
+	right: 100px;
+}
+.newsAndEvents
+{
+	position: relative;
+	text-align: left;
+	font-size: 200%;
+}
+.newsEventsBlock
+{
+	background: rgba(215,210,203,0.3);
+	width: 250px;
+    height: 110px;
+	color:  white;
+	position: center;
+
+}
+
 .inline
 {
 	display: inline;
@@ -251,9 +282,7 @@ li
 .dataMonetization
 {
 	content: url('../images/data-monetization.png');
-	display: block;
 }
-
 .machineToMachine
 {
 	content: url('../images/robot-icon.png');

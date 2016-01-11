@@ -31,11 +31,10 @@
 .generalBox
  {
     position: relative;
-	margin-right: 10px;
+	margin-right: 30px;
     padding: 10px;
     padding-top: 1px;
-	padding-bottom: 70px;
-	font-size: 110%;
+	padding-bottom: 30px;
     width:270px;
     height:110px;
     color: white; 
@@ -46,9 +45,9 @@
 .generalBox a
 {
 	position: absolute;
-	font-size: 80%;
+	font-size: 90%;
 	right: 120px;
-
+	bottom: 10px;
 }
 .pinkBox a:before
 {
@@ -60,7 +59,7 @@
 .greenBox a:before
 {
 	position: relative;
-	top: 5px;
+	top: 9px;
 	right: 15%;
 	content: url('../images/file_icon.png');
 }
@@ -74,14 +73,17 @@
  .pinkBox
  {
  	background-color:  #f24f9e;
+ 	font-size: 90%;
  }
  .orangeBox
  {
  	background-color: orange;
+ 	font-size: 95%;
  }
 .greenBox
 {
 	background-color: green;
+	font-size: 95%;
 }
 .cssKnopki
 {
@@ -108,7 +110,8 @@ body
 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 90%;
-	margin: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .searchLayout
@@ -156,10 +159,11 @@ body
 }
 .comverseBcg
 {
+	background-size: cover;
 	background: url(../images/slide-bg-complexity.png) 70% no-repeat fixed;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	width: 100%;
-	height: 460px;
+	height: 500px;
 	background-repeat: none;
 	background-position: center;
 	margin-left: auto;
@@ -182,19 +186,18 @@ h2, p
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background:  radial-gradient(#59BEDB 0%, #3399CC 100%);
 	width: 100%;
+	height: 340px;
 	padding-top: 0.1px;
-	padding-bottom: 1px;
+	padding-bottom: 40px;
 	margin-bottom: 0px; 
 }
 .whatsHappeningArea 
 {
 	background-size: cover;
-	height: 300px;
+	height: 350px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background: url(../images/news-and-events-bg.png) no-repeat fixed;
-	margin-top: 0 auto;
-	padding-top: 0px;
-	padding-bottom: 0px;
+	background: url(../images/news-and-events-bg.png) 50% no-repeat fixed;
+	margin-bottom: 0px; 
 }
 
 .allNewsIcon {
@@ -232,6 +235,10 @@ h2, p
 	position: relative;
 	text-align: center;
 }
+.canWeDoHeader
+{
+	padding-top: 30px;
+}
 
 h2
 {
@@ -259,7 +266,25 @@ li
 {
 	color: blue;
 }
-
+.ourSolutions
+{
+    display: block;
+    background: #2793C9;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 15px;
+    width: 20%;
+    text-align: left;
+}
+.ourSolutions:after
+{
+	content: url('../images/btnArrow.png');
+    position: relative;
+    padding-left: 1em;
+    top: 2px;
+}
 .LearnMoreButton
 {
     display: block;
@@ -286,6 +311,11 @@ li
 	position: relative;
 	right: 20px; 
 }
+.marginTop
+{
+	margin-top: 10px;
+}
+
 .weCanDoList  li
 {
 	display: inline-block;
@@ -312,6 +342,11 @@ li
 	text-align: left;
 	font-size: 1.3em;
 }
+.blackAndWhite
+{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
 
 .companyLogo{
 	float: right;
@@ -335,14 +370,39 @@ li
 }
 .adaleSpeech
 {
-	font-size: 30%;
+	font-size: 100%;
 }
-
+.JpQuoteAdale
+{
+	border-bottom: 1px solid rgb(221, 221, 221);
+	width: 310px;
+	height: 180px;
+	position: relative;
+	bottom: 83px;
+	color: #7b7b7b;
+}
 .sergeyKorotychColor
 {
 	text-transform: uppercase;
 	margin: 5px 0 0 0;
 	color: rgb(50, 150, 200);;
+}
+.successSingleStoryLast
+{
+	width: 200px;
+	height: 300px;
+}
+.successSingleStory {
+	width: 318px;
+	height: 300px;
+	float: left;
+}
+.JpQuoteLast {
+	border-bottom: 1px solid rgb(221, 221, 221);
+	width: 180px;
+	height: 455px;
+	margin: 0 10px 10px 0;
+	color: #7b7b7b;
 }
 
 .JpQuote {
@@ -351,8 +411,6 @@ li
 	height: 455px;
 	margin: 0 10px 10px 0;
 	color: #7b7b7b;
-	float: left;
-	font-size: 95%;
 }
 .JpQuoteImage {
 	height: 110px;
@@ -362,15 +420,47 @@ li
 
 .JpQuoteText 
 {
-	margin: 0.01px;
+	margin: 0.5px;
 	overflow: hidden;
 	background-color: white;
 	color: rgb(120, 120, 120);
 }
-
-.JP 
+ul
 {
 	list-style: none;
+}
+.lastClientLogo
+{
+	width: 95px;
+	height: 80px;	
+	position: relative;
+	bottom: 80px;
+	left: 88px;
+}
+
+.clientLogo {
+	width: 100px;
+	height: 80px;
+	background: rgb(255, 255, 255);
+	float: left;
+	position: relative;
+	right: 42px;
+}
+
+.clientLogo:first-child{
+	margin-top: 5px;
+	margin-right: 2px;
+	margin-left: 4px;
+}
+
+.clientLogo:after {
+}
+
+.clientLogo:hover:after {
+	height: 100%;
+}
+.container 
+{
 	display: inline-block;
 }
 
@@ -390,6 +480,7 @@ li
 .successStoriesHeader 
 {
 	color: rgb(120, 120, 120);
+	padding-top: 40px;
 }
 .successStoriesBcg 
 {
@@ -397,8 +488,6 @@ li
 	background-color: rgb(230, 230, 230);
 	height: 550px;
 	width: 100%;
-	padding-top: 0.1px;
-	
 }
 
 .dateAndMonth
@@ -431,7 +520,7 @@ li
 {
 	text-align: center;
 	margin: auto;
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 }
 .dataMonetization
 {

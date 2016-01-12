@@ -266,6 +266,21 @@ li
 {
 	color: blue;
 }
+.allSucessStories
+{
+    display: block;
+    background: #2793C9;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 15px;
+    width: 20%;
+    position: relative;
+    bottom: 20px;
+    text-align: left;	
+}
+
 .ourSolutions
 {
     display: block;
@@ -347,7 +362,12 @@ li
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
-
+.companyLogoLast{
+	float: right;
+	height: 30px;
+	position: relative;
+	top: 10px;
+}
 .companyLogo{
 	float: right;
 	height: 60px;
@@ -356,12 +376,25 @@ li
 {
 	display: inline-block;
 }
+.authorLast
+{
+	background-color: white;
+	height: 55px;
+	position: relative;
+	bottom: 15px;
+	text-align: left;
+}
+
 .author
 {
 	background-color: white;
 	padding: 0;
 	height: 60px;
 	text-align: left;
+}
+.companyLast
+{
+	font-size: 85%;
 }
 
 .company 
@@ -374,7 +407,6 @@ li
 }
 .JpQuoteAdale
 {
-	border-bottom: 1px solid rgb(221, 221, 221);
 	width: 310px;
 	height: 180px;
 	position: relative;
@@ -384,7 +416,7 @@ li
 .sergeyKorotychColor
 {
 	text-transform: uppercase;
-	margin: 5px 0 0 0;
+	margin: 3px 0 0 0;
 	color: rgb(50, 150, 200);;
 }
 .successSingleStoryLast
@@ -398,15 +430,22 @@ li
 	float: left;
 }
 .JpQuoteLast {
-	border-bottom: 1px solid rgb(221, 221, 221);
 	width: 180px;
 	height: 455px;
 	margin: 0 10px 10px 0;
 	color: #7b7b7b;
 }
 
+.JpQuoteLast
+{
+	width: 180px;
+	height: 455px;
+	margin: 0 10px 10px 0;
+	color: #7b7b7b;
+	font-size: 97%;
+}
+
 .JpQuote {
-	border-bottom: 1px solid rgb(221, 221, 221);
 	width: 310px;
 	height: 455px;
 	margin: 0 10px 10px 0;
@@ -416,6 +455,13 @@ li
 	height: 110px;
 	width: 100px;
 	float: left;
+}
+.JpQuoteTextLast
+{
+	margin: 0.2px;
+	height: 125px;
+	background-color: white;
+	color: rgb(120, 120, 120);	
 }
 
 .JpQuoteText 
@@ -437,7 +483,26 @@ ul
 	bottom: 80px;
 	left: 88px;
 }
-
+.clientLogoLast2
+{
+	position: relative;
+	bottom: 78px;
+	left: 55px;
+	width: 85px;
+	height: 70px;
+	background: rgb(255, 255, 255);
+	float: left;
+}
+.clientLogoLast
+ {
+	width: 85px;
+	height: 70px;
+	background: rgb(255, 255, 255);
+	float: left;
+	position: relative;
+	bottom: 8px;
+	right: 40px;
+}
 .clientLogo {
 	width: 100px;
 	height: 80px;
@@ -486,8 +551,9 @@ ul
 {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background-color: rgb(230, 230, 230);
-	height: 550px;
+	height: 480px;
 	width: 100%;
+	margin-bottom: 0;
 }
 
 .dateAndMonth
@@ -546,14 +612,53 @@ ul
 {
 	content: url('../images/social-icon.png');
 }
+footer {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #dbdbdb;
+	background: url(../images/footer-bg.png);
+	height: 320px;
+	margin-top: 0;
+}
+.disableMarginTop
+{
+	margin-top: 0px;
+}
+.disableMarginBottom
+{
+	margin-bottom: 0px;
+}
+.whiteFont
+{
+	color: #dadada;
+}
+.headerFooter
+{
+	text-transform: uppercase;
+	line-height: 50px;
+	font-size: 1em;
+}
+.footerCategories
+{
+	text-align: left;
+}
 
-
-
-
-
-
-
-
+.footerCategory {
+	float: left;
+	margin-right: 30px;
+	margin-left: 15px;
+}
+.fontSize90
+{
+	font-size: 90%;
+}
+.width
+{
+	width: 1300px;
+}
+@media (max-width: 777px)
+{
+	.width { width: 100%;}
+}
 
 
 

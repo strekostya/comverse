@@ -156,7 +156,7 @@ body
 
 .searchMobileBox 
 {
-	width: 170px;
+	width: 160px;
 	height: 35px;
 	border: none;
 	margin: 0 5px 0 5px;
@@ -950,9 +950,10 @@ footer {
 		display: inline-block;
 		position: absolute;
 		background: white;
+		margin-right: 5px;
 		margin: 0 0 0 -140px;
 		height: 35px;
-		width: 180px;
+		width: 170px;
 	}
 	#mobileMenu {
 		display: none;

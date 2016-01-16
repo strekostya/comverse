@@ -17,7 +17,7 @@
 					<img src="./images/divider.png" alt="Divider">
 					<a href="#" class="searchLayout">Customer Login</a>
 				</div>
-				<div>
+				<div class="notMobile">
 						<ul class="disableMarginTop">
 							 	<li><a href="#"><img src="./images/ComverseLogo.png" alt="Comverse_Log"></a></li>
 								<li><a href="#">YOUR NEEDS</a></li><img src="./images/divider.png" alt="Divider">	
@@ -37,9 +37,35 @@
 								 <li>
 						 </ul>
 				</div>
+				<div class="mobile">
+					<label id="mobileMenu-icon" for="mobileMenu"><img src="./images/hamburgerIcon.png" alt="menu"></label>
+					<input type="checkbox" id="mobileMenu">
+					 <a href="#" ><img class="comverseLogo" src="./images/ComverseLogo.png" alt="Comverse_Log"></a>
+					<label id="mobileSearch-icon" for="mobileSearch"><img id="buttonRadiusMobile" src="./images/searchBtn.png" alt="search"></label>
+					<input type="checkbox" id="mobileSearch">
+
+					<form method="GET" class="searchFormMobile">
+						<input type="search" name="search" class="searchMobileBox">
+					</form>
+					<ul class="mobileMenuItems">
+						<li class="mobileNav">
+							<a href="">Your Needs</a>
+						</li>
+						<li class="mobileNav">
+							<a href="">Our Portfolio</a>
+						</li>
+						<li class="mobileNav">
+							<a href="">News &amp; Media</a>
+						</li>
+						<li class="mobileNav">
+							<a href="">About Comverse</a>
+						</li>
+					</ul>
+				</div>
+
 		</header>
 		<article>
-			<main class="comverseBcg comverseBcgImage">
+			<main class="comverseBcg comverseBcgImage disableMarginTop">
 					<h2 class="disableMarginTop">
 						<b>Free</b> Your Markets From<br>IT <b>Complexity</b>
 					</h2> 
@@ -54,7 +80,7 @@
 	                    <li class="knopka"><a href="" class="cssKnopki" >3</a></li>
 	                    <li class="knopka"><a href="" class="cssKnopki">4</a></li>
 	                </ul>
-			    	<ul>
+			    	<ul class="disableMarginBottom">
 						<li class="generalBox pinkBox">
 							<p class="disableMarginTop">
 								Comverse Is Value Added Service Global Market Leader
@@ -75,7 +101,7 @@
 						</li>
     				</ul>
 			</main>
-			<section class="blueArea">
+			<section class="width blueArea">
 				<h2 class="center canWeDoHeader">WHAT CAN WE DO FOR YOU?</h2>
 				<ul class="weCanDoList marginTop">
 					<li>
@@ -117,7 +143,7 @@
 				</ul>
 					<div href="" class="ourSolutions center">See all of our solutions</div> 
 			</section>
-				<section class="whatsHappeningArea whatsHappeningAreaBcg">
+				<section class="width whatsHappeningArea whatsHappeningAreaBcg">
 					<h2 class="center">WHAT'S HAPPENING AT COMVERSE?</h2>
 					<ul class="newsAndEventsList">
 						<li class="news">
@@ -166,7 +192,7 @@
 						</li>
 					<ul>
 				</section>
-				<section class="successStoriesBcg">
+				<section class="width successStoriesBcg">
 					<h2 class="center successStoriesHeader">SUCCESS STORIES</h2>
 						<ul class="container">
 							<li class="successSingleStory">
@@ -195,7 +221,7 @@
 												<img src="./images/bull.png" alt="bull" class="container clientLogo">
 											</li>
 											<li>
-												<img src="./images/gemplus.png" alt="gemplus" class=" container lastClientLogo">
+												<img src="./images/gemplus.png" alt="gemplus" class="container lastClientLogo">
 											</li>
 										</ul>
 									</div>
@@ -259,7 +285,6 @@
 				</section>
 		</article>
 		<footer>
-			<div class="width">
 					<div class="footerCategories">
 						<ul class="footerCategory">
 							<span class="headerFooter">Key solutions</span>
@@ -319,7 +344,6 @@
 						</div>
 					</div>
 				<div class="copyright">Copyright &copy; 2012 Comverse, Inc. | <a href="">Privacy Policy</a></div>
-		</div>
 		</footer>
 	</div>
 </body>

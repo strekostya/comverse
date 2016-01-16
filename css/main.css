@@ -1,4 +1,5 @@
-#headingList li
+#
+headingList li
 {
 	display: inline;
 	color: black;
@@ -24,11 +25,7 @@ header
 	height: 13px;
 	width: 13px;
 }
-/*
-.knopka:nth-of-type(4)
-{
-	background-color: #3394DF;
-}*/
+
 .firstknopka
 {
 	background-color: #3394DF;
@@ -151,14 +148,16 @@ body
 	float: right;
 }
 
-.searchFormMobile {
+.searchFormMobile 
+{
 	border: 1px solid #d2d2d2;
 	border-radius: 6px;
 	margin-top: 30px;
 }
 
 
-.searchMobileBox {
+.searchMobileBox 
+{
 	width: 170px;
 	height: 35px;
 	border: none;
@@ -176,6 +175,7 @@ body
 	position: relative;
 	bottom: 10px;
 }
+
 .searchLayoutLocation
 {
 	display: inline-block;
@@ -185,6 +185,7 @@ body
 	position: relative;
 	top: 2px;
 }
+
 .CustLoginPosition
 {
 	position: relative;
@@ -728,10 +729,14 @@ footer {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: #dbdbdb;
 	background: url(../images/footer-bg.png);
-	height: 355px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+}
+.footerBcgHeight
+{
+	min-height: 355px;
+	max-height: 900px;
 }
 .disableMarginTop
 {
@@ -905,7 +910,10 @@ footer {
 #mobileSearch, #mobileSearch-icon {
 	display: none;
 }
-
+.copyrightMobile
+{
+	display: none;
+}
 @media (max-width: 777px)
 {
 	.width { width: 100%;}
@@ -916,8 +924,13 @@ footer {
 	.generalBox{width: 100%;}
 	.newsEventsBlock {width: 100%;}
 	.mobile{display: block;}
-	.selectLayout{display: none;}
 	.notMobile{display: none;}
+	.selectLayout{display: none;}
+	.copyrightMobile
+	{
+		height: 20px;
+		width: 100%;
+	}
 	#mobileSearch
 	{
 		display: none;
@@ -1009,6 +1022,34 @@ footer {
 		height: 35px;
 		width: 110px;
 		margin-bottom: 10px;
+	}
+	.footerMenu
+	{
+		text-transform: uppercase;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.footerMenuItem
+	{
+		color: rgb(150,150,150);
+		padding: 10px;
+		border-bottom: 1.5px solid black;
+	}
+
+	.footerMenuItem:last-child {
+		border-bottom: none;
+	}
+
+	.footerMenuItem img {
+		vertical-align: middle;
+		margin-left: 18px;
+	}
+	.footerBcgHeight
+	{
+		min-height: 200px;
+		max-height: 200px;
 	}
 }
 

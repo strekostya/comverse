@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Comverse</title>
-	<link rel="stylesheet" href="css/style-guide.css" type='text/css'>
+	<link rel="stylesheet" href="css/main.css" type='text/css'>
 </head>
 <body>
 	<div class="centeredHeaderPosition">
@@ -284,8 +284,8 @@
 						<div href="" class="allSucessStories center">All 256 success stories</div>						
 				</section>
 		</article>
-		<footer>
-					<div class="footerCategories">
+		<footer class="footerBcgHeight">
+					<div class="footerCategories notMobile">
 						<ul class="footerCategory">
 							<span class="headerFooter">Key solutions</span>
 							<li><a class="whiteFont" href="">Monetizing Data</a></li>
@@ -318,7 +318,7 @@
 						</ul>
 					</div>
 
-					<div class="subscribe">
+					<div class="subscribe notMobile">
 						<div>
 							<h1 class="disableMarginTop paddingTop">Latest blog posts</h1>
 							<div class="blogPostsDate dateFooter">
@@ -337,14 +337,36 @@
 								<button class="subscribeSubmit">SIGN UP</button>
 							</form>
 							<ul class="socialLinksPostions">
-								<li><a href="index.html"><img id="youtube" src="./images/socialMenuIcon-youtube.png" alt="youtube icon"></a></li>
-								<li><a href="index.html"><img id="twitter" src="./images/socialMenuIcon-twitter.png" alt="twitter icon"></a></li>
-								<li><a href="index.html"><img id="linkedin" src="./images/socialMenuIcon-linkdin.png" alt="linkedin icon"></a></li>
+								<li><a href=""><img id="youtube" src="./images/socialMenuIcon-youtube.png" alt="youtube icon"></a></li>
+								<li><a href=""><img id="twitter" src="./images/socialMenuIcon-twitter.png" alt="twitter icon"></a></li>
+								<li><a href=""><img id="linkedin" src="./images/socialMenuIcon-linkdin.png" alt="linkedin icon"></a></li>
 							</ul>
 						</div>
 					</div>
-				<div class="copyright">Copyright &copy; 2012 Comverse, Inc. | <a href="">Privacy Policy</a></div>
+					<div class="mobile">
+							<ul class="footerMenu">
+								<li class="footerMenuItem">Contact us</li>
+								<li class="footerMenuItem">Subscribe to comverse news</li>
+								<li class="footerMenuItem">Visit us on: 
+									<img id="youtube" src="./images/socialMenuIcon-youtube.png" alt="youtube icon"> 
+									<img id="twitter" src="./images/socialMenuIcon-twitter.png" alt="twitter icon"> 
+									<img id="linkedin" src="./images/socialMenuIcon-linkdin.png" alt="linkedin icon">
+								</li>
+								<li class="footerMenuItem">Change language:
+									<select class="footer-language" name="">
+										<option value="English">English</option>
+										<option value="Hebrew">Hebrew</option>
+									</select>
+								</li>
+							</ul>
+					</div>
+				<div class="copyright notMobile">
+					Copyright &copy; 2012 Comverse, Inc. | <a href="">Privacy Policy</a>
+				</div>
 		</footer>
+				<div class="copyrightMobile mobile">
+					Copyright &copy; 2012 Comverse, Inc. | Privacy Policy |<a href=""> Sitemap</a>
+				</div>
 	</div>
 </body>
 </html>

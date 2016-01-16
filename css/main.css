@@ -1,5 +1,4 @@
-#
-headingList li
+#headingList li
 {
 	display: inline;
 	color: black;
@@ -25,7 +24,6 @@ header
 	height: 13px;
 	width: 13px;
 }
-
 .firstknopka
 {
 	background-color: #3394DF;
@@ -1051,6 +1049,7 @@ footer {
 		min-height: 200px;
 		max-height: 200px;
 	}
+
 }
 
 

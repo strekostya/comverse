@@ -355,7 +355,10 @@ li
     padding-left: 1em;
     top: 2px;	
 }
-
+.allSucessStories:hover
+{
+	background-color: rgba(50, 150, 180,0.6);
+}
 .ourSolutions
 {
     display: block;
@@ -375,6 +378,11 @@ li
     padding-left: 1em;
     top: 2px;
 }
+.ourSolutions:hover
+{
+	background-color: rgba(50, 150, 180,0.6);
+}
+
 .LearnMoreButton
 {
     display: block;
@@ -395,6 +403,10 @@ li
     position: relative;
     padding-left: 1em;
     top: 2px;
+}
+.LearnMoreButton:hover
+{
+	background-color: rgba(50, 150, 180,0.6);
 }
 .centerText
 {
@@ -499,7 +511,7 @@ li
 {
 	text-transform: uppercase;
 	margin: 3px 0 0 0;
-	color: rgb(50, 150, 200);;
+	color: rgb(50, 150, 200);
 }
 .successSingleStoryLast
 {

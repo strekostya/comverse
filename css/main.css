@@ -456,6 +456,11 @@ li
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
+.blackAndWhite:hover
+{
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
 .companyLogoLast{
 	float: right;
 	height: 30px;
@@ -569,6 +574,10 @@ ul
 {
 	list-style: none;
 }
+.lastClientLogo:hover
+{
+	content: url('../images/playHover.png');
+}
 .lastClientLogo
 {
 	width: 95px;
@@ -576,6 +585,14 @@ ul
 	position: relative;
 	bottom: 80px;
 	left: 88px;
+}
+.clientLogoLast:hover
+{
+	content: url('../images/playHover.png');
+}
+.clientLogoLast2:hover
+{
+	content: url('../images/playHover.png');
 }
 .clientLogoLast2
 {

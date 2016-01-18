@@ -457,11 +457,6 @@ li
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
-.blackAndWhite:hover
-{
-	-webkit-filter: grayscale(0%);
-	filter: grayscale(0%);
-}
 .companyLogoLast{
 	float: right;
 	height: 30px;
@@ -578,9 +573,13 @@ ul
 .lastClientLogo:hover
 {
 	content: url('../images/playHover.png');
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 .lastClientLogo
 {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 	width: 95px;
 	height: 80px;	
 	position: relative;
@@ -590,10 +589,14 @@ ul
 .clientLogoLast:hover
 {
 	content: url('../images/playHover.png');
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 .clientLogoLast2:hover
 {
 	content: url('../images/playHover.png');
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 .clientLogoLast2
 {
@@ -626,6 +629,8 @@ ul
 .clientLogo:hover
 {
 	content: url('../images/playHover.png');
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 
 .clientLogo:first-child{
